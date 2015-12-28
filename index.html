@@ -1,157 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
-    <title>CLASS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Website CLASS model">
+    <meta name="author" content="Bart van Stratum | Meteorology and Air Quality section, Wageningen University and Research centre">
 
-    <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <title>CLASS model</title>
 
-    <style type="text/css">
-      body {
-        padding-top: 20px;
-        padding-bottom: 40px;
-      }
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-      /* Custom container */
-      .container-narrow {
-        margin: 0 auto;
-        max-width: 750px;
-      }
-      .container-narrow > hr {
-        margin: 20px 0;
-      }
+    <!-- Custom CSS -->
+    <link href="css/heroic-features.css" rel="stylesheet">
 
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 60px 0;
-        text-align: center;
-      }
-      .jumbotron h1 {
-        font-size: 72px;
-        line-height: 1;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
-
-      /* Supporting marketing content */
-      .marketing {
-        margin: 60px 0;
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
-      }
-    </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
-  </head>
+</head>
 
-  <body>
+<body>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- Page Content -->
+    <div class="container">
 
-    ga('create', 'UA-62433813-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+        <h2>CLASS: Chemistry Land-surface Atmosphere Soil Slab model</h2>
 
-    <div class="container-narrow">
-      <div class="header">
-        <h4 class="text-muted">CLASS: Chemistry Land-surface Atmosphere Soil Slab model</h4>
-      </div>
+        <hr>
 
-      <hr>
+        <!-- Page Features -->
+        <div class="row text-center">
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="figures/class.png" alt="">
+                    <div class="caption">
+                        <h3>Download CLASS</h3>
+                        <p>CLASS is released under a GPLv3 licence, the source code (with licence) is available at this website. Pre-compiled executables for Windows and OS X are available, for compiling CLASS on Linux see "useful links".</p>
+                        <p>
+                            <a href="https://github.com/classmodel/modelgui/releases" class="btn btn-primary">Executables</a> <a href="https://github.com/classmodel/modelgui" class="btn btn-primary">Source</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3>Suggestions / bugs</h3>
+                        <p>We have designed CLASS with care, but in case you run in to problems, please report them to us and we will do our best to solve issue.</p>
+                        <p>
+                            <a href="https://github.com/classmodel/modelgui/issues?state=open" class="btn btn-primary">Bugtracker</a> <a href="mailto:jordi.vila@wur.nl" class="btn btn-primary">Email</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="figures/clips.png" alt="">
+                    <div class="caption">
+                        <h3>Instruction and knowledge clips</h3>
+                        <p>To help users get started, we created short instruction and knowledge clips which introduce the CLASS model, the different options and settings, and some of the theory behind the model.</p>
+                        <p>
+                            <a href="clips.html" class="btn btn-primary">View the clips</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3>Useful links</h3>
+                        <p><a href="https://github.com/classmodel/modelgui#compiling-class">Compiling CLASS on Linux »</a></p>
+                        <p><a href="https://github.com/classmodel/modelgui#note-for-os-x-users">Notes for OS X users »</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="figures/python_code.png" alt="">
+                    <div class="caption">
+                        <h3>Research versions CLASS</h3>
+                        <p>Two research codes are available for conducting advanced experiments. The first is the <a href="https://github.com/classmodel/mxlch">MXLCH</a> Fortran code, which contains all the features (and some extras) of the graphical user interface. The second is the <a href="https://github.com/classmodel/modelpy">Python</a> version, which is a basic implementation of the coupled land-atmosphere model without the chemistry.</p>
+                        <p>
+                            <a href="https://github.com/classmodel/mxlch" class="btn btn-primary">Fortran</a> <a href="https://github.com/classmodel/modelpy" class="btn btn-primary">Python</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
 
-      <div class="row-fluid">
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="figures/book.png" alt="">
+                    <div class="caption">
+                        <h3>Book</h3>
+                        <p>Our book: Atmospheric boundary layer: Integrating chemistry and land interactions is published by Cambridge University Press!</p>
+                        <p>
+                            <a href="http://www.cambridge.org/mx/academic/subjects/earth-and-environmental-science/atmospheric-science-and-meteorology/atmospheric-boundary-layer-integrating-air-chemistry-and-land-interactions" class="btn btn-primary">Cambridge website</a>
+                        </p>
+                    </div>
+                </div>
 
-        <div class="span6">
-
-          <h4>Release of the book</h4>
-          <p>Our book: <b>Atmospheric boundary layer: Integrating chemistry and land interactions</b> is published by Cambridge University Press!</p>
-          <p><img src="img/book.jpg"></p>
-          <p><a href="http://www.cambridge.org/mx/academic/subjects/earth-and-environmental-science/atmospheric-science-and-meteorology/atmospheric-boundary-layer-integrating-air-chemistry-and-land-interactions" class="btn btn-success btn-lg" role="button">Visit the Cambridge website &raquo;</a></p>
-
-          <h4>Instruction and knowledge clips</h4>
-          <p>To help users get started, we created short instruction and knowledge clips which introduce the CLASS model, the different options and settings, and some of the theory behind the model.</p>
-          <p><a href="http://www.met.wau.nl/class/clips/" class="btn btn-success btn-lg" role="button">View the clips &raquo;</a></p>
-         
-          <h4>Exercises</h4>
-          <p>We provide the numerical settings of the hands-on exercises proposed in the book. The book describes all exercises in detail, including background information on the initial and boundary conditions.</p>
-          <p><a href="https://github.com/classmodel/exercises" class="btn btn-success btn-lg" role="button">Download exercises &raquo;</a> <a href="answers/answers.pdf" class="btn btn-success btn-lg" role="button">Download answers &raquo;</a></p>
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3>Exercises</h3>
+                        <p>We provide the numerical settings of the hands-on exercises proposed in the book. The book describes all exercises in detail, including background information on the initial and boundary conditions.</p>
+                        <p>
+                            <a href="https://github.com/classmodel/exercises" class="btn btn-primary">Exercises</a> <a href="answers/answers.pdf" class="btn btn-primary">Answers</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
         </div>
+        <!-- /.row -->
 
-        <div class="span6">
-        
-          <h4>Download the CLASS model</h4>
-          <p>CLASS is released under a GPLv3 licence, the source code (with licence) is available at this website. Pre-compiled executables for Windows and OS X are available, for compiling CLASS on Linux see "useful links".</p>
-          <p><a href="https://github.com/classmodel/modelgui/releases" class="btn btn-success btn-lg" role="button">Download the executables &raquo;</a> <a href="https://github.com/classmodel/modelgui" class="btn btn-success btn-lg" role="button">Source code &raquo;</a></p>
+        <hr>
 
-          <h4>Research version of CLASS</h4>
-          <p>Two research codes are available for conducting advanced experiments. The first is the <a href="https://github.com/classmodel/mxlch">MXLCH</a> Fortran code, which contains all the features (and some extras) of the graphical user interface. The second is the  <a href="https://github.com/classmodel/modelpy">Python</a> version, which is a basic implementation of the coupled land-atmosphere model without the chemistry.</p>
-          <p><a href="https://github.com/classmodel/mxlch" class="btn btn-success btn-lg" role="button">Fortran &raquo;</a> <a href="https://github.com/classmodel/modelpy" class="btn btn-success btn-lg" role="button">Python &raquo;</a></p>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Meteorology and Air Quality section, Wageningen University and Research centre (2015)</p>
+                </div>
+            </div>
+        </footer>
 
-          <h4>Suggestions or bugs</h4>
-          <p>We have designed CLASS with care, but in case you run in to problems, please report them to us and we will do our best to solve issue.</p>
-          <p><a href="https://github.com/classmodel/modelgui/issues?state=open" class="btn btn-success btn-lg" role="button">Bugtracker &raquo;</a> <a href="mailto:jordi.vila@wur.nl" class="btn btn-success btn-lg" role="button">Email &raquo;</a></p>
+    </div>
+    <!-- /.container -->
 
-          <h4>Useful links</h4>
-          <p><a href="https://github.com/classmodel/modelgui#compiling-class">Compiling CLASS on a Linux machine &raquo;</a></p>
-          <p><a href="https://github.com/classmodel/modelgui#note-for-os-x-users">Notes for OS X users &raquo;</a></p>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-        </div>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-      </div>
+</body>
 
-      <hr>
-
-      <img src="img/CLASS.png"/>
-
-      <hr>
-
-      <div class="footer">
-        <p>&copy; 2010-2015</p>
-      </div>
-
-    </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-
-  </body>
 </html>
-
